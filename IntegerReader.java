@@ -7,7 +7,7 @@ public class IntegerReader {
     int number = input.nextInt();
 
     int ones = number % 10;
-    int twos = (number/10) % 10;
+    int tens = (number/10) % 10;
     int hundreds = (number/100) % 10;
     int thousands = (number/1000) % 10;
     int sum = ones + twos + hundreds + thousands;
